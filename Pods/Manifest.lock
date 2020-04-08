@@ -1,0 +1,23 @@
+PODS:
+  - KissXML (5.3.1):
+    - KissXML/All (= 5.3.1)
+  - KissXML/Additions (5.3.1):
+    - KissXML/Core
+  - KissXML/All (5.3.1):
+    - KissXML/Additions
+    - KissXML/Core
+  - KissXML/Core (5.3.1)
+
+DEPENDENCIES:
+  - KissXML
+
+SPEC REPOS:
+  trunk:
+    - KissXML
+
+SPEC CHECKSUMS:
+  KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
+
+PODFILE CHECKSUM: 217e1060761231e5b7457ff4bbc9d7ea59df3ed3
+
+COCOAPODS: 1.8.4

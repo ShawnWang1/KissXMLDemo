@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29910D77243DAC78000FF9A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29910D76243DAC78000FF9A6 /* AppDelegate.m */; };
+		29910D7A243DAC78000FF9A6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29910D79243DAC78000FF9A6 /* SceneDelegate.m */; };
+		29910D7D243DAC78000FF9A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29910D7C243DAC78000FF9A6 /* ViewController.m */; };
+		29910D80243DAC78000FF9A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29910D7E243DAC78000FF9A6 /* Main.storyboard */; };
+		29910D82243DAC7C000FF9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29910D81243DAC7C000FF9A6 /* Assets.xcassets */; };
+		29910D85243DAC7C000FF9A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29910D83243DAC7C000FF9A6 /* LaunchScreen.storyboard */; };
+		29910D88243DAC7C000FF9A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29910D87243DAC7C000FF9A6 /* main.m */; };
+		29910D92243DAC7C000FF9A6 /* KissXMLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29910D91243DAC7C000FF9A6 /* KissXMLDemoTests.m */; };
+		29910D9D243DAC7C000FF9A6 /* KissXMLDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29910D9C243DAC7C000FF9A6 /* KissXMLDemoUITests.m */; };
+		29910DAB243DB7EB000FF9A6 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = 29910DAA243DB7EA000FF9A6 /* test.xml */; };
+		83F66ED9978101A52A83684A /* Pods_KissXMLDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7838FBC3C839E0CD2032E0DD /* Pods_KissXMLDemoTests.framework */; };
+		BEFFB7CD70F50C50AE2BB330 /* Pods_KissXMLDemo_KissXMLDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E6BFEBEB84C2C956139993 /* Pods_KissXMLDemo_KissXMLDemoUITests.framework */; };
+		C4CCB17599A11B2FA433D81F /* Pods_KissXMLDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E00CB20327D1E3C749FD1B4 /* Pods_KissXMLDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29910D8E243DAC7C000FF9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29910D6A243DAC78000FF9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29910D71243DAC78000FF9A6;
+			remoteInfo = KissXMLDemo;
+		};
+		29910D99243DAC7C000FF9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29910D6A243DAC78000FF9A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29910D71243DAC78000FF9A6;
+			remoteInfo = KissXMLDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056087F532A323750AEED69F /* Pods-KissXMLDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLDemoTests.release.xcconfig"; path = "Target Support Files/Pods-KissXMLDemoTests/Pods-KissXMLDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		106A372E403E0F7298BB51EB /* Pods-KissXMLDemo-KissXMLDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLDemo-KissXMLDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-KissXMLDemo-KissXMLDemoUITests/Pods-KissXMLDemo-KissXMLDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1C8F546EA681B8CF3F663B86 /* Pods-KissXMLDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLDemo.debug.xcconfig"; path = "Target Support Files/Pods-KissXMLDemo/Pods-KissXMLDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		29910D72243DAC78000FF9A6 /* KissXMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KissXMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29910D75243DAC78000FF9A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29910D76243DAC78000FF9A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29910D78243DAC78000FF9A6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		29910D79243DAC78000FF9A6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		29910D7B243DAC78000FF9A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29910D7C243DAC78000FF9A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29910D7F243DAC78000FF9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29910D81243DAC7C000FF9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29910D84243DAC7C000FF9A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29910D86243DAC7C000FF9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29910D87243DAC7C000FF9A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29910D8D243DAC7C000FF9A6 /* KissXMLDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KissXMLDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29910D91243DAC7C000FF9A6 /* KissXMLDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KissXMLDemoTests.m; sourceTree = "<group>"; };
+		29910D93243DAC7C000FF9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29910D98243DAC7C000FF9A6 /* KissXMLDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KissXMLDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29910D9C243DAC7C000FF9A6 /* KissXMLDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KissXMLDemoUITests.m; sourceTree = "<group>"; };
+		29910D9E243DAC7C000FF9A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29910DAA243DB7EA000FF9A6 /* test.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
+		582B4B391BE8D07891525B34 /* Pods-KissXMLDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLDemo.release.xcconfig"; path = "Target Support Files/Pods-KissXMLDemo/Pods-KissXMLDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7838FBC3C839E0CD2032E0DD /* Pods_KissXMLDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KissXMLDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FD5A68311663A643189600 /* Pods-KissXMLDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-KissXMLDemoTests/Pods-KissXMLDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E00CB20327D1E3C749FD1B4 /* Pods_KissXMLDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KissXMLDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8FF7992DEEFBF0AD965183 /* Pods-KissXMLDemo-KissXMLDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KissXMLDemo-KissXMLDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-KissXMLDemo-KissXMLDemoUITests/Pods-KissXMLDemo-KissXMLDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8E6BFEBEB84C2C956139993 /* Pods_KissXMLDemo_KissXMLDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KissXMLDemo_KissXMLDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29910D6F243DAC78000FF9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CCB17599A11B2FA433D81F /* Pods_KissXMLDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29910D8A243DAC7C000FF9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F66ED9978101A52A83684A /* Pods_KissXMLDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29910D95243DAC7C000FF9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFFB7CD70F50C50AE2BB330 /* Pods_KissXMLDemo_KissXMLDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29910D69243DAC78000FF9A6 = {
+			isa = PBXGroup;
+			children = (
+				29910DAA243DB7EA000FF9A6 /* test.xml */,
+				29910D74243DAC78000FF9A6 /* KissXMLDemo */,
+				29910D90243DAC7C000FF9A6 /* KissXMLDemoTests */,
+				29910D9B243DAC7C000FF9A6 /* KissXMLDemoUITests */,
+				29910D73243DAC78000FF9A6 /* Products */,
+				E4A09154C5F428C6573220B5 /* Pods */,
+				CF8001573277ABB68BBA57CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29910D73243DAC78000FF9A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29910D72243DAC78000FF9A6 /* KissXMLDemo.app */,
+				29910D8D243DAC7C000FF9A6 /* KissXMLDemoTests.xctest */,
+				29910D98243DAC7C000FF9A6 /* KissXMLDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29910D74243DAC78000FF9A6 /* KissXMLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				29910D75243DAC78000FF9A6 /* AppDelegate.h */,
+				29910D76243DAC78000FF9A6 /* AppDelegate.m */,
+				29910D78243DAC78000FF9A6 /* SceneDelegate.h */,
+				29910D79243DAC78000FF9A6 /* SceneDelegate.m */,
+				29910D7B243DAC78000FF9A6 /* ViewController.h */,
+				29910D7C243DAC78000FF9A6 /* ViewController.m */,
+				29910D7E243DAC78000FF9A6 /* Main.storyboard */,
+				29910D81243DAC7C000FF9A6 /* Assets.xcassets */,
+				29910D83243DAC7C000FF9A6 /* LaunchScreen.storyboard */,
+				29910D86243DAC7C000FF9A6 /* Info.plist */,
+				29910D87243DAC7C000FF9A6 /* main.m */,
+			);
+			path = KissXMLDemo;
+			sourceTree = "<group>";
+		};
+		29910D90243DAC7C000FF9A6 /* KissXMLDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				29910D91243DAC7C000FF9A6 /* KissXMLDemoTests.m */,
+				29910D93243DAC7C000FF9A6 /* Info.plist */,
+			);
+			path = KissXMLDemoTests;
+			sourceTree = "<group>";
+		};
+		29910D9B243DAC7C000FF9A6 /* KissXMLDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29910D9C243DAC7C000FF9A6 /* KissXMLDemoUITests.m */,
+				29910D9E243DAC7C000FF9A6 /* Info.plist */,
+			);
+			path = KissXMLDemoUITests;
+			sourceTree = "<group>";
+		};
+		CF8001573277ABB68BBA57CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E00CB20327D1E3C749FD1B4 /* Pods_KissXMLDemo.framework */,
+				D8E6BFEBEB84C2C956139993 /* Pods_KissXMLDemo_KissXMLDemoUITests.framework */,
+				7838FBC3C839E0CD2032E0DD /* Pods_KissXMLDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4A09154C5F428C6573220B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C8F546EA681B8CF3F663B86 /* Pods-KissXMLDemo.debug.xcconfig */,
+				582B4B391BE8D07891525B34 /* Pods-KissXMLDemo.release.xcconfig */,
+				BD8FF7992DEEFBF0AD965183 /* Pods-KissXMLDemo-KissXMLDemoUITests.debug.xcconfig */,
+				106A372E403E0F7298BB51EB /* Pods-KissXMLDemo-KissXMLDemoUITests.release.xcconfig */,
+				90FD5A68311663A643189600 /* Pods-KissXMLDemoTests.debug.xcconfig */,
+				056087F532A323750AEED69F /* Pods-KissXMLDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29910D71243DAC78000FF9A6 /* KissXMLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29910DA1243DAC7C000FF9A6 /* Build configuration list for PBXNativeTarget "KissXMLDemo" */;
+			buildPhases = (
+				41C9DE730D75E6D4BA03AE5E /* [CP] Check Pods Manifest.lock */,
+				29910D6E243DAC78000FF9A6 /* Sources */,
+				29910D6F243DAC78000FF9A6 /* Frameworks */,
+				29910D70243DAC78000FF9A6 /* Resources */,
+				8608B08CEA94608C0C8F4C63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KissXMLDemo;
+			productName = KissXMLDemo;
+			productReference = 29910D72243DAC78000FF9A6 /* KissXMLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29910D8C243DAC7C000FF9A6 /* KissXMLDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29910DA4243DAC7C000FF9A6 /* Build configuration list for PBXNativeTarget "KissXMLDemoTests" */;
+			buildPhases = (
+				6D3314A6965EC50D4B4F1534 /* [CP] Check Pods Manifest.lock */,
+				29910D89243DAC7C000FF9A6 /* Sources */,
+				29910D8A243DAC7C000FF9A6 /* Frameworks */,
+				29910D8B243DAC7C000FF9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29910D8F243DAC7C000FF9A6 /* PBXTargetDependency */,
+			);
+			name = KissXMLDemoTests;
+			productName = KissXMLDemoTests;
+			productReference = 29910D8D243DAC7C000FF9A6 /* KissXMLDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29910D97243DAC7C000FF9A6 /* KissXMLDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29910DA7243DAC7C000FF9A6 /* Build configuration list for PBXNativeTarget "KissXMLDemoUITests" */;
+			buildPhases = (
+				567E65D4D064EBCFC3360C9C /* [CP] Check Pods Manifest.lock */,
+				29910D94243DAC7C000FF9A6 /* Sources */,
+				29910D95243DAC7C000FF9A6 /* Frameworks */,
+				29910D96243DAC7C000FF9A6 /* Resources */,
+				44ACD84E75BCE5F7F9BABE51 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29910D9A243DAC7C000FF9A6 /* PBXTargetDependency */,
+			);
+			name = KissXMLDemoUITests;
+			productName = KissXMLDemoUITests;
+			productReference = 29910D98243DAC7C000FF9A6 /* KissXMLDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29910D6A243DAC78000FF9A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = shawn;
+				TargetAttributes = {
+					29910D71243DAC78000FF9A6 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					29910D8C243DAC7C000FF9A6 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 29910D71243DAC78000FF9A6;
+					};
+					29910D97243DAC7C000FF9A6 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 29910D71243DAC78000FF9A6;
+					};
+				};
+			};
+			buildConfigurationList = 29910D6D243DAC78000FF9A6 /* Build configuration list for PBXProject "KissXMLDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29910D69243DAC78000FF9A6;
+			productRefGroup = 29910D73243DAC78000FF9A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29910D71243DAC78000FF9A6 /* KissXMLDemo */,
+				29910D8C243DAC7C000FF9A6 /* KissXMLDemoTests */,
+				29910D97243DAC7C000FF9A6 /* KissXMLDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29910D70243DAC78000FF9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29910D85243DAC7C000FF9A6 /* LaunchScreen.storyboard in Resources */,
+				29910D82243DAC7C000FF9A6 /* Assets.xcassets in Resources */,
+				29910D80243DAC78000FF9A6 /* Main.storyboard in Resources */,
+				29910DAB243DB7EB000FF9A6 /* test.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29910D8B243DAC7C000FF9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29910D96243DAC7C000FF9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C9DE730D75E6D4BA03AE5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KissXMLDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44ACD84E75BCE5F7F9BABE51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KissXMLDemo-KissXMLDemoUITests/Pods-KissXMLDemo-KissXMLDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KissXMLDemo-KissXMLDemoUITests/Pods-KissXMLDemo-KissXMLDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KissXMLDemo-KissXMLDemoUITests/Pods-KissXMLDemo-KissXMLDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		567E65D4D064EBCFC3360C9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KissXMLDemo-KissXMLDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D3314A6965EC50D4B4F1534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KissXMLDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8608B08CEA94608C0C8F4C63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KissXMLDemo/Pods-KissXMLDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KissXMLDemo/Pods-KissXMLDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KissXMLDemo/Pods-KissXMLDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29910D6E243DAC78000FF9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29910D7D243DAC78000FF9A6 /* ViewController.m in Sources */,
+				29910D77243DAC78000FF9A6 /* AppDelegate.m in Sources */,
+				29910D88243DAC7C000FF9A6 /* main.m in Sources */,
+				29910D7A243DAC78000FF9A6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29910D89243DAC7C000FF9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29910D92243DAC7C000FF9A6 /* KissXMLDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29910D94243DAC7C000FF9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29910D9D243DAC7C000FF9A6 /* KissXMLDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29910D8F243DAC7C000FF9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29910D71243DAC78000FF9A6 /* KissXMLDemo */;
+			targetProxy = 29910D8E243DAC7C000FF9A6 /* PBXContainerItemProxy */;
+		};
+		29910D9A243DAC7C000FF9A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29910D71243DAC78000FF9A6 /* KissXMLDemo */;
+			targetProxy = 29910D99243DAC7C000FF9A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29910D7E243DAC78000FF9A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29910D7F243DAC78000FF9A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29910D83243DAC7C000FF9A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29910D84243DAC7C000FF9A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29910D9F243DAC7C000FF9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29910DA0243DAC7C000FF9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29910DA2243DAC7C000FF9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8F546EA681B8CF3F663B86 /* Pods-KissXMLDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KissXMLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.KissXMLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29910DA3243DAC7C000FF9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582B4B391BE8D07891525B34 /* Pods-KissXMLDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KissXMLDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.KissXMLDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29910DA5243DAC7C000FF9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FD5A68311663A643189600 /* Pods-KissXMLDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KissXMLDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.KissXMLDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KissXMLDemo.app/KissXMLDemo";
+			};
+			name = Debug;
+		};
+		29910DA6243DAC7C000FF9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056087F532A323750AEED69F /* Pods-KissXMLDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KissXMLDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.KissXMLDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KissXMLDemo.app/KissXMLDemo";
+			};
+			name = Release;
+		};
+		29910DA8243DAC7C000FF9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8FF7992DEEFBF0AD965183 /* Pods-KissXMLDemo-KissXMLDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KissXMLDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.KissXMLDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KissXMLDemo;
+			};
+			name = Debug;
+		};
+		29910DA9243DAC7C000FF9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106A372E403E0F7298BB51EB /* Pods-KissXMLDemo-KissXMLDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KissXMLDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shawn.KissXMLDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KissXMLDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29910D6D243DAC78000FF9A6 /* Build configuration list for PBXProject "KissXMLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29910D9F243DAC7C000FF9A6 /* Debug */,
+				29910DA0243DAC7C000FF9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29910DA1243DAC7C000FF9A6 /* Build configuration list for PBXNativeTarget "KissXMLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29910DA2243DAC7C000FF9A6 /* Debug */,
+				29910DA3243DAC7C000FF9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29910DA4243DAC7C000FF9A6 /* Build configuration list for PBXNativeTarget "KissXMLDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29910DA5243DAC7C000FF9A6 /* Debug */,
+				29910DA6243DAC7C000FF9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29910DA7243DAC7C000FF9A6 /* Build configuration list for PBXNativeTarget "KissXMLDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29910DA8243DAC7C000FF9A6 /* Debug */,
+				29910DA9243DAC7C000FF9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29910D6A243DAC78000FF9A6 /* Project object */;
+}

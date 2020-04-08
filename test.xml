@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shop>
+  <pen>
+    <type>小钢炮</type>
+    <manufacturers id="9567">东擦擦</manufacturers>
+    <tradePrice>0.5</tradePrice>
+  </pen>
+  <book>
+    <name>唧唧唧唧</name>
+    <year>3</year>
+    <price>56.6</price>
+  </book>
+  <book>
+    <name>哈哈哈哈哈</name>
+    <year>111</year>
+    <price>100</price>
+  </book>
+</shop>
